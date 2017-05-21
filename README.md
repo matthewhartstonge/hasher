@@ -2,12 +2,12 @@
 fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to the hasher interface required by fosite.
 
 **Table of contents**
-- [Documentation](#Documentation)
-  - [Development](#Development)
-    - [Linux](#Linux)
-    - [Windows 32-bit](#Windows-32-bit)
-    - [Windows 64-bit](#Windows-64-bit)
-  - [Example](#Example)
+- [Documentation](#documentation)
+  - [Development](#development)
+    - [Linux](#linux)
+    - [Windows 32-bit](#windows-32-bit)
+    - [Windows 64-bit](#windows-64-bit)
+  - [Example](#example)
 
 ## Documentation
 ### Development
