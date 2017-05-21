@@ -1,6 +1,6 @@
 language: go
 
-go_import_path: github.com/MatthewHartstonge/fosite-hasher-argon2/argon2
+go_import_path: github.com/MatthewHartstonge/hasher
 
 go:
   - 1.7
@@ -10,11 +10,9 @@ env:
   - GO15VENDOREXPERIMENT=1
 
 install:
-  - cd argon2
   - go get github.com/mattn/goveralls github.com/ory/fosite golang.org/x/tools/cmd/cover github.com/pierrre/gotestcover github.com/Masterminds/glide
   - glide install
 
 script:
-  - cd argon2
   - gotestcover -coverprofile="cover.out" -race -covermode="count" $(glide novendor)
   - goveralls -coverprofile="cover.out"
