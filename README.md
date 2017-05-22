@@ -1,5 +1,5 @@
 # fosite-hasher-argon2
-[![Build Status](https://travis-ci.org/MatthewHartstonge/hasher.svg?branch=master)](https://travis-ci.org/MatthewHartstonge/hasher) [![Coverage Status](https://coveralls.io/repos/github/MatthewHartstonge/hasher/badge.svg?branch=master)](https://coveralls.io/github/MatthewHartstonge/hasher?branch=master)
+[![Build Status](https://travis-ci.org/MatthewHartstonge/hasher.svg?branch=master)](https://travis-ci.org/MatthewHartstonge/hasher) [![Coverage Status](https://coveralls.io/repos/github/MatthewHartstonge/hasher/badge.svg?branch=master)](https://coveralls.io/github/MatthewHartstonge/hasher?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/MatthewHartstonge/hasher)](https://goreportcard.com/report/github.com/MatthewHartstonge/hasher)
 
 fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to the hasher interface required by fosite.
 
