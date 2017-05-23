@@ -1,4 +1,7 @@
 package: github.com/MatthewHartstonge/hasher
+owners:
+- name: Matthew Hartstonge
+  email: matt@mykro.co.nz
 import:
 - package: github.com/lhecker/argon2
   version: b3ac3756bd9227d6d4d5f9dec8142b1cd9ca6ac5
