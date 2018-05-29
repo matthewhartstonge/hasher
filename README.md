@@ -6,41 +6,18 @@ fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to t
 **Table of contents**
 - [Documentation](#documentation)
   - [Development](#development)
-    - [Linux](#linux)
-    - [Windows 32-bit](#windows-32-bit)
-    - [Windows 64-bit](#windows-64-bit)
+    - [Installation](#installation)
   - [Example](#example)
 
 ## Documentation
 ### Development
-Currently there is no 'pure' Golang implementation of the Argon 1.3 specification, the version of which doesn't 
-currently have a known attack vector. In the meantime, this requires having `GCC` installed to allow complation with 
-`CGO`. Follow the steps below to ensure you can use the Argon2 hasher on your given environments
+Woohoo! A pure Golang implementation of the Argon2 has been added into `golang.com/x/crypto` therefore, development is
+a lot more easy now! Install glide, pull deps and build!
 
-#### Linux
-- On Debian/Ubuntu run `sudo apt-get update && sudo apt-get install build-essential`
+#### Installation
 - Install [glide](http://glide.sh/) - A golang package manager
 - Run `glide install`
 - `go build` successfully! 
-
-#### Windows 32-bit
-- Install [MinGW for x86](https://sourceforge.net/projects/mingw/files/latest/download?source=files)
-- Add `C:\MinGW\bin` to path
-- Select and install `gcc-core`
-- Select and install `gcc-g++`
-- Install [glide](http://glide.sh/) - A golang package manager
-- Run `glide install`
-- `go build` successfully!
-
-#### Windows 64-bit
-- Install [Cygwin](https://cygwin.com/setup-x86_64.exe)
-- Add `C:\cygwin64\bin` to path
-- Select and Install `x86_64-w64-mingw32-gcc-core`
-- Select and Install `x86_64-w64-mingw32-gcc-g++`
-- Change all file names in `C:\cygwin64\bin` by removing `x86_64-w64-mingw32-` which is prepended to all files we need to use..
-- Install [glide](http://glide.sh/) - A golang package manager
-- Run `glide install`
-- `go build` successfully!
 
 ### Example
 Following the [fosite-example/authorizationserver](https://github.com/ory/fosite-example/blob/master/authorizationserver/oauth2.go) 
@@ -48,11 +25,13 @@ example, we can extend this to add support for the argon2 hasher via the compose
 fosite Compose function, `Argon2Compose`, which allows taking in a custom hasher.
 
 ```go
+package myoauth
+
 import (
 	"crypto/rand"
 	"crypto/rsa"
 	"github.com/MatthewHartstonge/hasher"
-	"github.com/lhecker/argon2"
+	"github.com/MatthewHartstonge/argon2"
 	"github.com/ory/fosite/compose"
 	"github.com/ory/fosite/storage"
 	"time"
@@ -93,9 +72,9 @@ var argon2DefaultConfiguration = &hasher.Argon2{
 //		HashLength:  32,
 //		SaltLength:  16,
 //		TimeCost:    3,
-//		MemoryCost:  1 << 12,
-//		Parallelism: 1,
-//		Mode:        argon2.ModeArgon2i,
+//		MemoryCost:  64*1024,
+//		Parallelism: 4,
+//		Mode:        argon2.ModeArgon2id,
 //		Version:     argon2.Version13,
 //	},
 //}

@@ -1,7 +1,7 @@
 package hasher
 
 import (
-	"github.com/lhecker/argon2"
+	"github.com/MatthewHartstonge/argon2"
 	"github.com/ory/fosite"
 	"github.com/pkg/errors"
 )

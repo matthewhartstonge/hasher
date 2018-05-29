@@ -1,15 +1,14 @@
 language: go
 go_import_path: github.com/MatthewHartstonge/hasher
 go:
-  - 1.7
-  - 1.8
+  - "1.10"
+  - "1.9"
 env:
   - GO15VENDOREXPERIMENT=1
 install:
   - mkdir -p $GOPATH/bin $GOPATH/pkg $GOPATH/src
   - curl https://glide.sh/get | sh
-  - go get github.com/mattn/goveralls github.com/ory/fosite golang.org/x/tools/cmd/cover github.com/pierrre/gotestcover
+  - go get github.com/ory/fosite
   - glide install
 script:
-  - gotestcover -coverprofile="cover.out" -race -covermode="count" $(glide novendor)
-  - goveralls -coverprofile="cover.out"
+  - go test ./...
