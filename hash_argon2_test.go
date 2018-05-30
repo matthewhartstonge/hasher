@@ -3,8 +3,8 @@ package hasher_test
 import (
 	"testing"
 
-	"github.com/MatthewHartstonge/argon2"
-	"github.com/MatthewHartstonge/hasher"
+	"github.com/matthewhartstonge/argon2"
+	"github.com/matthewhartstonge/hasher"
 	"github.com/stretchr/testify/assert"
 )
 

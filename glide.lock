@@ -1,20 +1,20 @@
-hash: a82310d0c1cefe4cbfc2236577e7cc38d8c14c50fae6ee0e7f0459d1883ed398
-updated: 2018-05-29T21:02:29.041635945+12:00
+hash: 53c01853fa82533245f697399af6bfe45a1751d24b345e0e4ff792e17cee7adf
+updated: 2018-05-30T21:27:59.5802385+12:00
 imports:
 - name: github.com/asaskevich/govalidator
   version: 7d2e70ef918f16bd6455529af38304d6d025c952
-- name: github.com/MatthewHartstonge/argon2
-  version: 278a50b584ae7657c05bc02face3257699b29441
+- name: github.com/matthewhartstonge/argon2
+  version: 1943425aeb7925c86b0e8e4c0bdedf18439afde7
 - name: github.com/mohae/deepcopy
   version: c48cc78d482608239f6c4c92a4abd87eb8761c90
 - name: github.com/ory/fosite
-  version: a958ab8218d13c4b0533eb38d07203f2da7ac114
+  version: 93618d66a99d2756e0a4c638727b728afc62520f
 - name: github.com/pborman/uuid
-  version: e790cca94e6cc75c7064b1332e63811d4aae1a53
+  version: c65b2f87fee37d1c7854c9164a450713c28d50cd
 - name: github.com/pkg/errors
   version: 645ef00459ed84a119197bfb8d8205042c6df63d
 - name: golang.org/x/crypto
-  version: ab813273cd59e1333f7ae7bff5d027d4aadf528c
+  version: ae8bce0030810cf999bb2b9868ae5c7c58e6343b
   subpackages:
   - argon2
   - bcrypt

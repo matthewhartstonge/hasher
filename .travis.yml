@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/MatthewHartstonge/hasher
+go_import_path: github.com/matthewhartstonge/hasher
 go:
   - "1.10"
   - "1.9"
