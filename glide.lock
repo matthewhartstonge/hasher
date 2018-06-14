@@ -1,10 +1,10 @@
-hash: c63464cd0c98bea91adf3f42b4cde824ce576608ffbfc672ac90bdab580dd234
-updated: 2018-06-14T15:28:24.3647987+12:00
+hash: bd0e461cfc34bb86ea23d531acc0b261f267de584c4644eae5afd9db66dacaa2
+updated: 2018-06-14T15:45:55.1852623+12:00
 imports:
 - name: github.com/asaskevich/govalidator
   version: 4918b99a7cb949bb295f3c7bbaf24b577d806e35
 - name: github.com/matthewhartstonge/argon2
-  version: 1943425aeb7925c86b0e8e4c0bdedf18439afde7
+  version: 88a6ee9981a424d89f4b5624dc481da5c0aa77cf
 - name: github.com/mohae/deepcopy
   version: c48cc78d482608239f6c4c92a4abd87eb8761c90
 - name: github.com/ory/fosite

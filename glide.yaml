@@ -6,7 +6,7 @@ import:
 - package: github.com/pkg/errors
   version: ~0.8.0
 - package: github.com/matthewhartstonge/argon2
-  version: ~0.1.0
+  version: ~0.1.1
 - package: golang.org/x/crypto
 testImport:
 - package: github.com/stretchr/testify
