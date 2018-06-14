@@ -1,29 +1,25 @@
-hash: 53c01853fa82533245f697399af6bfe45a1751d24b345e0e4ff792e17cee7adf
-updated: 2018-05-30T21:27:59.5802385+12:00
+hash: c63464cd0c98bea91adf3f42b4cde824ce576608ffbfc672ac90bdab580dd234
+updated: 2018-06-14T15:28:24.3647987+12:00
 imports:
 - name: github.com/asaskevich/govalidator
-  version: 7d2e70ef918f16bd6455529af38304d6d025c952
+  version: 4918b99a7cb949bb295f3c7bbaf24b577d806e35
 - name: github.com/matthewhartstonge/argon2
   version: 1943425aeb7925c86b0e8e4c0bdedf18439afde7
 - name: github.com/mohae/deepcopy
   version: c48cc78d482608239f6c4c92a4abd87eb8761c90
 - name: github.com/ory/fosite
-  version: 93618d66a99d2756e0a4c638727b728afc62520f
+  version: 0911eb0d643d77105e0126bf2303bdfd7190ccd3
 - name: github.com/pborman/uuid
-  version: c65b2f87fee37d1c7854c9164a450713c28d50cd
+  version: a97ce2ca70fa5a848076093f05e639a89ca34d06
 - name: github.com/pkg/errors
   version: 645ef00459ed84a119197bfb8d8205042c6df63d
 - name: golang.org/x/crypto
-  version: ae8bce0030810cf999bb2b9868ae5c7c58e6343b
+  version: b2aa35443fbc700ab74c586ae79b81c171851023
   subpackages:
   - argon2
   - bcrypt
   - blake2b
   - blowfish
-- name: golang.org/x/sys
-  version: c11f84a56e43e20a78cee75a7c034031ecf57d1f
-  subpackages:
-  - cpu
 testImports:
 - name: github.com/davecgh/go-spew
   version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
