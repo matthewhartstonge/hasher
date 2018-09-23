@@ -1,7 +1,8 @@
 # fosite-hasher-argon2
 [![Build Status](https://travis-ci.org/matthewhartstonge/hasher.svg?branch=master)](https://travis-ci.org/matthewhartstonge/hasher) [![Coverage Status](https://coveralls.io/repos/github/matthewhartstonge/hasher/badge.svg?branch=master)](https://coveralls.io/github/matthewhartstonge/hasher?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/matthewhartstonge/hasher)](https://goreportcard.com/report/github.com/matthewhartstonge/hasher)
 
-fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to the hasher interface required by fosite.
+fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to 
+the hasher interface required by fosite.
 
 **Table of contents**
 - [Documentation](#documentation)
@@ -10,19 +11,20 @@ fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to t
   - [Example](#example)
 
 ## Documentation
+
 ### Development
-Woohoo! A pure Golang implementation of the Argon2 has been added into `golang.com/x/crypto` therefore, development is
-a lot more easy now! Install glide, pull deps and build!
+Install dep, ensure and build!
 
 #### Installation
-- Install [glide](http://glide.sh/) - A golang package manager
-- Run `glide install`
+- Install [dep](https://golang.github.io/dep/) - A Go dependency manager
+- Run `dep ensure - v`
 - `go build` successfully! 
 
 ### Example
 Following the [fosite-example/authorizationserver](https://github.com/ory/fosite-example/blob/master/authorizationserver/oauth2.go) 
-example, we can extend this to add support for the argon2 hasher via the compose configuration. I have used a custom 
-fosite Compose function, `Argon2Compose`, which allows taking in a custom hasher.
+example, we can extend this to add support for the argon2 hasher via the compose 
+configuration. I have used a custom fosite Compose function, `Argon2Compose`, 
+which allows taking in a custom hasher.
 
 ```go
 package myoauth
@@ -30,11 +32,16 @@ package myoauth
 import (
 	"crypto/rand"
 	"crypto/rsa"
-	"github.com/matthewhartstonge/hasher"
-	"github.com/matthewhartstonge/argon2"
-	"github.com/ory/fosite/compose"
-	"github.com/ory/fosite/storage"
 	"time"
+	
+	"github.com/matthewhartstonge/argon2"
+	"github.com/matthewhartstonge/hasher"
+	
+	"github.com/ory/fosite"
+	"github.com/ory/fosite/compose"
+	"github.com/ory/fosite/handler/openid"
+	"github.com/ory/fosite/storage"
+	"github.com/ory/fosite/token/jwt"
 )
 
 // This is the exemplary storage that contains:
@@ -62,9 +69,7 @@ var strat = compose.CommonStrategy{
 }
 
 // For a default Argon2 configuration setup
-var argon2DefaultConfiguration = &hasher.Argon2{
-	Config: argon2.DefaultConfig(),
-}
+var argon2DefaultConfiguration = hasher.New(nil)
 
 // To customise the Argon2 config use the following:
 //var argon2CustomConfig = &hasher.Argon2{
