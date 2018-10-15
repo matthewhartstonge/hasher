@@ -49,12 +49,12 @@
   revision = "c48cc78d482608239f6c4c92a4abd87eb8761c90"
 
 [[projects]]
-  digest = "1:69a141d8a22c4f1f70fdbbc0a0ace89ffd86e891d7a9e17758f52c5c2397f606"
+  digest = "1:0324a7ada337496f84af02238c19e24cdeb9a9c99b92200732a052a74a0adc75"
   name = "github.com/ory/fosite"
   packages = ["."]
   pruneopts = "UT"
-  revision = "e1e18d6b22697abeceff6e22d4741c3bf04174f8"
-  version = "v0.24.0"
+  revision = "02ea4b186a6384bfe2a36741842f49f7370e0991"
+  version = "v0.25.0"
 
 [[projects]]
   digest = "1:64b6873f32c5f3559db17af4c57d65d98d35dee79d8184d7eca7deeb644c3426"
