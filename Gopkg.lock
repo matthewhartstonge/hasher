@@ -25,28 +25,12 @@
   version = "v3.2.0"
 
 [[projects]]
-  digest = "1:bc38c7c481812e178d85160472e231c5e1c9a7f5845d67e23ee4e706933c10d8"
-  name = "github.com/golang/mock"
-  packages = ["gomock"]
-  pruneopts = "UT"
-  revision = "c34cdb4725f4c3844d095133c6e40e448b86589b"
-  version = "v1.1.1"
-
-[[projects]]
   digest = "1:3a26588bc48b96825977c1b3df964f8fd842cd6860cc26370588d3563433cf11"
   name = "github.com/google/uuid"
   packages = ["."]
   pruneopts = "UT"
   revision = "d460ce9f8df2e77fb1ba55ca87fafed96c607494"
   version = "v1.0.0"
-
-[[projects]]
-  branch = "master"
-  digest = "1:aed2e9b126305bbbe630edd83e25d8c49a19bf5663ec412d7bf54a5e262e5814"
-  name = "github.com/gtank/cryptopasta"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "1f550f6f2f69009f6ae57347c188e0a67cd4e500"
 
 [[projects]]
   digest = "1:fc2ada09726a5e06df9547dc8a447a069d3a2bdb423d4811b65513eafb85fc30"
@@ -65,30 +49,12 @@
   revision = "c48cc78d482608239f6c4c92a4abd87eb8761c90"
 
 [[projects]]
-  digest = "1:1919e36a53e2297eca9d3516ca358dec92257fe0de3361351e09400c91d65d5e"
-  name = "github.com/oleiade/reflections"
+  digest = "1:69a141d8a22c4f1f70fdbbc0a0ace89ffd86e891d7a9e17758f52c5c2397f606"
+  name = "github.com/ory/fosite"
   packages = ["."]
   pruneopts = "UT"
-  revision = "2b6ec3da648e3e834dc41bad8d9ed7f2dc6a9496"
-  version = "v1.0.0"
-
-[[projects]]
-  digest = "1:6b46022eecbf3c05afcc09887e55063629d779f55b10a937426580d142b00e43"
-  name = "github.com/ory/fosite"
-  packages = [
-    ".",
-    "compose",
-    "handler/oauth2",
-    "handler/openid",
-    "handler/pkce",
-    "internal",
-    "storage",
-    "token/hmac",
-    "token/jwt",
-  ]
-  pruneopts = "UT"
-  revision = "805e0e9a36aa254b18e853b8a9c7881738deb010"
-  version = "v0.23.0"
+  revision = "e1e18d6b22697abeceff6e22d4741c3bf04174f8"
+  version = "v0.24.0"
 
 [[projects]]
   digest = "1:64b6873f32c5f3559db17af4c57d65d98d35dee79d8184d7eca7deeb644c3426"
@@ -125,12 +91,9 @@
   revision = "d8ed2627bdf02c080bf22230dbb337003b7aba2d"
 
 [[projects]]
-  digest = "1:db1eb3ddc46067e4cda85237f4026899a8919a88fadde3c19be25e689e5e7fe2"
+  digest = "1:25f2747b063c0a656195ef85413cef8c9f2bbe128deab7d39563a6ca1e536070"
   name = "github.com/stretchr/testify"
-  packages = [
-    "assert",
-    "require",
-  ]
+  packages = ["assert"]
   pruneopts = "UT"
   revision = "69483b4bd14f5845b5a1e55bca19e954e827f1d0"
   version = "v1.1.4"
@@ -150,14 +113,6 @@
   ]
   pruneopts = "UT"
   revision = "0e37d006457bf46f9e6692014ba72ef82c33022c"
-
-[[projects]]
-  branch = "master"
-  digest = "1:76ee51c3f468493aff39dbacc401e8831fbb765104cbf613b89bef01cf4bad70"
-  name = "golang.org/x/net"
-  packages = ["context"]
-  pruneopts = "UT"
-  revision = "2f5d2388922f370f4355f327fcf4cfe9f5583908"
 
 [[projects]]
   digest = "1:52b7d226696ffeb8b3aa86b91fc39163a3d349b8e5703a46461e5fa33c3cb6c9"
@@ -182,21 +137,10 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/asaskevich/govalidator",
-    "github.com/golang/mock/gomock",
     "github.com/matthewhartstonge/argon2",
-    "github.com/mohae/deepcopy",
-    "github.com/oleiade/reflections",
     "github.com/ory/fosite",
-    "github.com/ory/fosite/compose",
-    "github.com/ory/fosite/handler/oauth2",
-    "github.com/ory/fosite/internal",
-    "github.com/ory/fosite/storage",
-    "github.com/pborman/uuid",
     "github.com/pkg/errors",
     "github.com/stretchr/testify/assert",
-    "github.com/stretchr/testify/require",
-    "golang.org/x/crypto/bcrypt",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
