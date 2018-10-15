@@ -1,5 +1,5 @@
 # fosite-hasher-argon2
-[![Build Status](https://travis-ci.org/matthewhartstonge/hasher.svg?branch=master)](https://travis-ci.org/matthewhartstonge/hasher) [![Go Report Card](https://goreportcard.com/badge/github.com/matthewhartstonge/hasher)](https://goreportcard.com/report/github.com/matthewhartstonge/hasher)
+[![Go Report Card](https://goreportcard.com/badge/github.com/matthewhartstonge/hasher)](https://goreportcard.com/report/github.com/matthewhartstonge/hasher) [![Build Status](https://travis-ci.org/matthewhartstonge/hasher.svg?branch=master)](https://travis-ci.org/matthewhartstonge/hasher) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher?ref=badge_shield)
 
 fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to 
 the hasher interface required by fosite.
@@ -173,3 +173,8 @@ func Argon2Compose(config *compose.Config, storage interface{}, strategy interfa
 	return f
 }
 ```
+
+## Licensing
+hasher is under the Apache 2.0 License.
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher?ref=badge_large)
