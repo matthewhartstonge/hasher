@@ -5,22 +5,12 @@ fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to
 the hasher interface required by fosite.
 
 **Table of contents**
-- [Documentation](#documentation)
-  - [Development](#development)
-    - [Installation](#installation)
-  - [Example](#example)
+- [Example](#example)
+- [Compatibility](#compatibility)
+- [Development](#development)
+  - [Installation](#installation)
 
-## Documentation
-
-### Development
-Install dep, ensure and build!
-
-#### Installation
-- Install [dep](https://golang.github.io/dep/) - A Go dependency manager
-- Run `dep ensure - v`
-- `go build` successfully! 
-
-### Example
+## Example
 Following the [fosite-example/authorizationserver](https://github.com/ory/fosite-example/blob/master/authorizationserver/oauth2.go) 
 example, we can extend this to add support for the argon2 hasher via the compose 
 configuration. I have used a custom fosite Compose function, `Argon2Compose`, 
@@ -173,6 +163,26 @@ func Argon2Compose(config *compose.Config, storage interface{}, strategy interfa
 	return f
 }
 ```
+
+## Compatibility
+The following table lists the compatible versions of hasher with fosite. 
+If you are currently using this in production, it would be awesome to 
+know what versions you are successfully paired with.
+
+| storage version | minimum fosite version | maximum fosite version | 
+|----------------:|-----------------------:|-----------------------:|
+|       `v3.2.X`  |              `v0.25.X` |              `v0.29.X` |
+|       `v3.1.X`  |              `v0.24.X` |              `v0.24.X` |
+|       `v3.0.X`  |              `v0.23.X` |              `v0.23.X` |
+
+
+## Development
+Install dep, ensure and build!
+
+### Installation
+- Install [dep](https://golang.github.io/dep/) - A Go dependency manager
+- Run `dep ensure - v`
+- `go build` successfully! 
 
 ## Licensing
 hasher is under the Apache 2.0 License.
