@@ -169,9 +169,9 @@ The following table lists the compatible versions of hasher with fosite.
 If you are currently using this in production, it would be awesome to 
 know what versions you are successfully paired with.
 
-| storage version | minimum fosite version | maximum fosite version | 
+| hasher version  | minimum fosite version | maximum fosite version | 
 |----------------:|-----------------------:|-----------------------:|
-|       `v3.2.X`  |              `v0.25.X` |              `v0.29.X` |
+|       `v3.2.X`  |              `v0.25.X` |              `v0.30.X` |
 |       `v3.1.X`  |              `v0.24.X` |              `v0.24.X` |
 |       `v3.0.X`  |              `v0.23.X` |              `v0.23.X` |
 
