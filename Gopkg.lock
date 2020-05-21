@@ -33,12 +33,12 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:9de6fac2345080fc0efe19fec0b14dc554e1498555d2ab4425c342e807c9cf72"
+  digest = "1:8ba2b2c67c151c2970340a41f07ac9df936b5700103219cb0888889f092a74c8"
   name = "github.com/matthewhartstonge/argon2"
   packages = ["."]
   pruneopts = "UT"
-  revision = "b0172f2c2c7bfa1ebdb88cccbe9f5cf789d96b09"
-  version = "v0.1.3"
+  revision = "cc1a73e06edcf37c531df3322f941b93ac1c807f"
+  version = "v0.1.4"
 
 [[projects]]
   branch = "master"
