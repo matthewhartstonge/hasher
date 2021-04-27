@@ -1,20 +1,16 @@
 language: go
 go_import_path: github.com/matthewhartstonge/hasher
 go:
-  - "1.9"
-  - "1.10"
-  - "1.11"
-  - "1.12"
-  - "1.13"
-  - "1.14"
+  - "1.16"
 
 env:
   - GO15VENDOREXPERIMENT=1
 
-install:
-  - mkdir -p $GOPATH/bin $GOPATH/pkg $GOPATH/src
-  - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
-  - dep ensure -v
-
 script:
+  - go test ./...
+  - cd ./v2
+  - go test ./...
+  - cd ../v3
+  - go test ./...
+  - cd ../v4
   - go test ./...
