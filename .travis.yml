@@ -8,14 +8,13 @@ go:
   - "1.13"
   - "1.14"
 
-before_install:
-  - mkdir -p $GOPATH/bin $GOPATH/pkg $GOPATH/src
-  - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+env:
+  - GO15VENDOREXPERIMENT=1
 
 install:
+  - mkdir -p $GOPATH/bin $GOPATH/pkg $GOPATH/src
+  - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
   - dep ensure -v
-  # if we have go mod support, use it
-  - go mod vendor || true
 
 script:
   - go test ./...

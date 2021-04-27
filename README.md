@@ -177,7 +177,8 @@ know what versions you are successfully paired with.
 
 
 ## Development
-Install dep, ensure and build!
+- For version 3 and below, install `dep`, run `dep ensure` and build!
+    - Require version 3 with go mod? run `go get github.com/matthewhartstonge/hasher@v3.3.2+incompatible`
 
 ### Installation
 - Install [dep](https://golang.github.io/dep/) - A Go dependency manager

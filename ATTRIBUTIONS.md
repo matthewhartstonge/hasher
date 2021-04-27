@@ -6,7 +6,7 @@ We acknowledge and are grateful to these developers for their contributions
 to open source.
 
 ### [argon2](https://github.com/matthewhartstonge/argon2)
-- Copyright 2018 Matthew Hartstonge <matt@mykro.co.nz>
+- Copyright 2020 Matthew Hartstonge <matt@mykro.co.nz>
 - [Apache License 2.0](https://github.com/matthewhartstonge/argon2/blob/v0.1.2/LICENSE)
 
 ### [fosite](https://github.com/ory/fosite)
