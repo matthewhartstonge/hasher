@@ -171,18 +171,21 @@ know what versions you are successfully paired with.
 
 | hasher version  | minimum fosite version | maximum fosite version | 
 |----------------:|-----------------------:|-----------------------:|
+|       `v4.X.X`  |              `v0.25.X` |              `v0.30.X` |
 |       `v3.2.X`  |              `v0.25.X` |              `v0.30.X` |
 |       `v3.1.X`  |              `v0.24.X` |              `v0.24.X` |
 |       `v3.0.X`  |              `v0.23.X` |              `v0.23.X` |
 
 
 ## Development
+- For version 4 we have migrated to `go mod`.
 - For version 3 and below, install `dep`, run `dep ensure` and build!
     - Require version 3 with go mod? run `go get github.com/matthewhartstonge/hasher@v3.3.2+incompatible`
 
 ### Installation
-- Install [dep](https://golang.github.io/dep/) - A Go dependency manager
-- Run `dep ensure - v`
+- Install [Go](https://golang.github.io/dep/)
+- Create a new go project `go mod init`
+- Run `go get github.com/matthewhartstonge/hasher/v4`
 - `go build` successfully! 
 
 ## Licensing
