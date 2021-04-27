@@ -24,8 +24,8 @@ github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826/go.mod h1:TaXosZuwd
 github.com/moul/http2curl v0.0.0-20170919181001-9ac6cf4d929b/go.mod h1:8UbvGypXm98wA/IqH45anm5Y2Z6ep6O31QGOAZ3H0fQ=
 github.com/oleiade/reflections v1.0.0 h1:0ir4pc6v8/PJ0yw5AEtMddfXpWBXg9cnG7SgSoJuCgY=
 github.com/oleiade/reflections v1.0.0/go.mod h1:RbATFBbKYkVdqmSFtx13Bb/tVhR0lgOBXunWTZKeL4w=
-github.com/ory/fosite v0.26.1 h1:4NAWuUZMqRu/H+NsI7+nxyqK3U2p26M0fznozNBVmaQ=
-github.com/ory/fosite v0.26.1/go.mod h1:uttCRNB0lM7+BJFX7CC8Bqo9gAPrcpmA9Ezc80Trwuw=
+github.com/ory/fosite v0.27.4 h1:+2Iu957COQM3vbWp5qjgq0W4icsjbtg+5y3AYJ87EjY=
+github.com/ory/fosite v0.27.4/go.mod h1:uttCRNB0lM7+BJFX7CC8Bqo9gAPrcpmA9Ezc80Trwuw=
 github.com/ory/go-convenience v0.1.0 h1:zouLKfF2GoSGnJwGq+PE/nJAE6dj2Zj5QlTgmMTsTS8=
 github.com/ory/go-convenience v0.1.0/go.mod h1:uEY/a60PL5c12nYz4V5cHY03IBmwIAEm8TWB0yn9KNs=
 github.com/parnurzeal/gorequest v0.2.15/go.mod h1:3Kh2QUMJoqw3icWAecsyzkpY7UzRfDhbRdTjtNwNiUE=
