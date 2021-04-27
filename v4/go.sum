@@ -111,8 +111,8 @@ github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRW
 github.com/oklog/ulid v1.3.1/go.mod h1:CirwcVhetQ6Lv90oh/F+FBtV6XMibvdAFo93nm5qn4U=
 github.com/oleiade/reflections v1.0.0 h1:0ir4pc6v8/PJ0yw5AEtMddfXpWBXg9cnG7SgSoJuCgY=
 github.com/oleiade/reflections v1.0.0/go.mod h1:RbATFBbKYkVdqmSFtx13Bb/tVhR0lgOBXunWTZKeL4w=
-github.com/ory/fosite v0.32.4 h1:+Z4uYFpZccznz+Gtt4SGSIFx7HW3bdQuUwuEfHoegAI=
-github.com/ory/fosite v0.32.4/go.mod h1:h+ize9gk0GvRyGjabriqSEmTkMhny+O95cijb8DVqPE=
+github.com/ory/fosite v0.33.0 h1:tK+3Luazv4vIBJY3uagOBryAQ3IG3cs6kfo8piGBhAY=
+github.com/ory/fosite v0.33.0/go.mod h1:h+ize9gk0GvRyGjabriqSEmTkMhny+O95cijb8DVqPE=
 github.com/ory/go-acc v0.2.5 h1:31irXHzG2vnKQSE4weJm7AdfrnpaVjVCq3nD7viXCJE=
 github.com/ory/go-acc v0.2.5/go.mod h1:4Kb/UnPcT8qRAk3IAxta+hvVapdxTLWtrr7bFLlEgpw=
 github.com/ory/go-convenience v0.1.0 h1:zouLKfF2GoSGnJwGq+PE/nJAE6dj2Zj5QlTgmMTsTS8=
