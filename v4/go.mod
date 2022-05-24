@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/matthewhartstonge/argon2 v0.2.1
-	github.com/ory/fosite v0.38.0
+	github.com/ory/fosite v0.39.0
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.6.1
 )
