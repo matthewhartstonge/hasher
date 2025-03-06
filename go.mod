@@ -1,4 +1,4 @@
-module github.com/matthewhartstonge/hasher/v4
+module github.com/matthewhartstonge/hasher/v5
 
 go 1.16
 

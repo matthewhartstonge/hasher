@@ -169,23 +169,25 @@ The following table lists the compatible versions of hasher with fosite.
 If you are currently using this in production, it would be awesome to 
 know what versions you are successfully paired with.
 
-| hasher version  | minimum fosite version | maximum fosite version | 
-|----------------:|-----------------------:|-----------------------:|
-|       `v4.X.X`  |              `v0.25.X` |              `v0.30.X` |
-|       `v3.2.X`  |              `v0.25.X` |              `v0.30.X` |
-|       `v3.1.X`  |              `v0.24.X` |              `v0.24.X` |
-|       `v3.0.X`  |              `v0.23.X` |              `v0.23.X` |
+| hasher version | minimum fosite version | maximum fosite version | 
+|---------------:|-----------------------:|-----------------------:|
+|       `v5.X.X` |              `v0.25.X` |              `v0.40.X` |
+|       `v4.X.X` |              `v0.25.X` |              `v0.30.X` |
+|       `v3.2.X` |              `v0.25.X` |              `v0.30.X` |
+|       `v3.1.X` |              `v0.24.X` |              `v0.24.X` |
+|       `v3.0.X` |              `v0.23.X` |              `v0.23.X` |
 
 
 ## Development
+- For version 5 we flattened the repo and downgraded the minimum required version of fosite as the interface has remained consistent.
 - For version 4 we have migrated to `go mod`.
 - For version 3 and below, install `dep`, run `dep ensure` and build!
     - Require version 3 with go mod? run `go get github.com/matthewhartstonge/hasher@v3.3.2+incompatible`
 
 ### Installation
-- Install [Go](https://golang.github.io/dep/)
+- Install [Go](https://go.dev/dl/)
 - Create a new go project `go mod init`
-- Run `go get github.com/matthewhartstonge/hasher/v4`
+- Run `go get github.com/matthewhartstonge/hasher/v5`
 - `go build` successfully! 
 
 ## Licensing

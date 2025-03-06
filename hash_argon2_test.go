@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	// Internal Imports
-	"github.com/matthewhartstonge/hasher/v4"
+	"github.com/matthewhartstonge/hasher/v5"
 )
 
 // TestArgon2_ImplementsHasher ensures that Argon2 implements the fosite.Hasher
