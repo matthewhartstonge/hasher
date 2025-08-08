@@ -3,7 +3,7 @@ module github.com/matthewhartstonge/hasher/v5
 go 1.23.0
 
 require (
-	github.com/matthewhartstonge/argon2 v1.3.3
+	github.com/matthewhartstonge/argon2 v1.3.4
 	github.com/ory/fosite v0.34.1
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.10.0
@@ -36,10 +36,10 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
-	golang.org/x/crypto v0.40.0 // indirect
-	golang.org/x/sys v0.34.0 // indirect
-	golang.org/x/text v0.27.0 // indirect
-	golang.org/x/tools v0.34.0 // indirect
+	golang.org/x/crypto v0.41.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/text v0.28.0 // indirect
+	golang.org/x/tools v0.35.0 // indirect
 	gopkg.in/ini.v1 v1.57.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
