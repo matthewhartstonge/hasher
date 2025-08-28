@@ -6,7 +6,7 @@ require (
 	github.com/matthewhartstonge/argon2 v1.3.4
 	github.com/ory/fosite v0.34.1
 	github.com/pkg/errors v0.9.1
-	github.com/stretchr/testify v1.11.0
+	github.com/stretchr/testify v1.11.1
 )
 
 require (
