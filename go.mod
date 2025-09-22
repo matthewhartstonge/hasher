@@ -5,7 +5,6 @@ go 1.24.0
 require (
 	github.com/matthewhartstonge/argon2 v1.3.4
 	github.com/ory/fosite v0.34.1
-	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -29,6 +28,7 @@ require (
 	github.com/ory/viper v1.7.5 // indirect
 	github.com/pborman/uuid v1.2.0 // indirect
 	github.com/pelletier/go-toml v1.8.0 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/afero v1.3.2 // indirect
 	github.com/spf13/cast v1.3.1 // indirect
