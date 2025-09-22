@@ -7,7 +7,6 @@ import (
 	// External Imports
 	"github.com/matthewhartstonge/argon2"
 	"github.com/ory/fosite"
-	"github.com/pkg/errors"
 )
 
 var _ fosite.Hasher = (*Argon2)(nil)
@@ -22,7 +21,7 @@ type Argon2 struct {
 func (a *Argon2) Compare(ctx context.Context, hash, data []byte) error {
 	ok, err := argon2.VerifyEncoded(data, hash)
 	if err != nil {
-		return errors.WithStack(err)
+		return err
 	}
 	if !ok {
 		return fosite.ErrRequestUnauthorized
@@ -35,7 +34,7 @@ func (a *Argon2) Compare(ctx context.Context, hash, data []byte) error {
 func (a *Argon2) Hash(ctx context.Context, data []byte) ([]byte, error) {
 	s, err := a.Config.HashEncoded(data)
 	if err != nil {
-		return nil, errors.WithStack(err)
+		return nil, err
 	}
 	return s, nil
 }
