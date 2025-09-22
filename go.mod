@@ -1,6 +1,6 @@
 module github.com/matthewhartstonge/hasher/v5
 
-go 1.23.0
+go 1.24.0
 
 require (
 	github.com/matthewhartstonge/argon2 v1.3.4
