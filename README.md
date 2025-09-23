@@ -1,5 +1,5 @@
 # fosite-hasher-argon2
-[![Go Report Card](https://goreportcard.com/badge/github.com/matthewhartstonge/hasher)](https://goreportcard.com/report/github.com/matthewhartstonge/hasher) [![Build Status](https://travis-ci.org/matthewhartstonge/hasher.svg?branch=master)](https://travis-ci.org/matthewhartstonge/hasher) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher?ref=badge_shield)
+[![Go Reference](https://pkg.go.dev/badge/github.com/matthewhartstonge/hasher.svg)](https://pkg.go.dev/github.com/matthewhartstonge/hasher) [![Go Report Card](https://goreportcard.com/badge/github.com/matthewhartstonge/hasher)](https://goreportcard.com/report/github.com/matthewhartstonge/hasher) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmatthewhartstonge%2Fhasher?ref=badge_shield)
 
 fosite-hasher-argon2 provides an Argon2 based password hasher that conforms to 
 the hasher interface required by fosite.
@@ -13,8 +13,7 @@ the hasher interface required by fosite.
 ## Example
 Following the [fosite-example/authorizationserver](https://github.com/ory/fosite-example/blob/master/authorizationserver/oauth2.go) 
 example, we can extend this to add support for the argon2 hasher via the compose 
-configuration. I have used a custom fosite Compose function, `Argon2Compose`, 
-which allows taking in a custom hasher.
+configuration.
 
 ```go
 // ...
