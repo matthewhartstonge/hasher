@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.1.0](https://github.com/matthewhartstonge/hasher/compare/v5.0.4...v5.1.0) (2025-09-23)
+
+
+### Features
+
+* **deps:** upgrade to `github.com/ory/fosite@v0.49.0`. ([9ff08f0](https://github.com/matthewhartstonge/hasher/commit/9ff08f0f0a1d4da4aedc4cccfd256f1ba8c53700))
+* **deps:** upgrades to `go@1.24.0`. ([1242966](https://github.com/matthewhartstonge/hasher/commit/1242966380e234ad7104a1d1725759ec6d5f6ebc))
+
 ## [5.0.4](https://github.com/matthewhartstonge/hasher/compare/v5.0.3...v5.0.4) (2025-08-10)
 
 
