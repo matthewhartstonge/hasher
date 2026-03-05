@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.1.7](https://github.com/matthewhartstonge/hasher/compare/v5.1.6...v5.1.7) (2026-03-05)
+
+
+### Bug Fixes
+
+* **deps:** update go.opentelemetry.io/otel/sdk from 1.21.0 to 1.40.0 ([#44](https://github.com/matthewhartstonge/hasher/issues/44)) ([6d16826](https://github.com/matthewhartstonge/hasher/commit/6d1682630ed16aabe5baef3f937487700cc47016))
+
 ## [5.1.6](https://github.com/matthewhartstonge/hasher/compare/v5.1.5...v5.1.6) (2026-02-17)
 
 
