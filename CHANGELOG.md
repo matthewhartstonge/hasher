@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.2.0](https://github.com/matthewhartstonge/hasher/compare/v5.1.7...v5.2.0) (2026-03-26)
+
+
+### Features
+
+* **deps:** update github.com/matthewhartstonge/argon2 from 1.4.6 to 1.5.0, Go from 1.24 to 1.25. ([91d41df](https://github.com/matthewhartstonge/hasher/commit/91d41df6a18bbc705d4c1498d6314fc6da5135dd))
+
+
+### Bug Fixes
+
+* **deps:** updates to `google.golang.org/grpc@v1.79.3` to mitigate CVE-2026-33186 (GHSA-p77j-4mvh-x3m3). ([0e99a91](https://github.com/matthewhartstonge/hasher/commit/0e99a911a2e09a45f29c73903719e0790f6a0df1))
+
 ## [5.1.7](https://github.com/matthewhartstonge/hasher/compare/v5.1.6...v5.1.7) (2026-03-05)
 
 
