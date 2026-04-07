@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.2.1](https://github.com/matthewhartstonge/hasher/compare/v5.2.0...v5.2.1) (2026-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update github.com/go-jose/go-jose/v3 from 3.0.4 to 3.0.5 ([#48](https://github.com/matthewhartstonge/hasher/issues/48)) ([de3da61](https://github.com/matthewhartstonge/hasher/commit/de3da614b04c65ca012d5c230f81578b95a1e36a))
+
 ## [5.2.0](https://github.com/matthewhartstonge/hasher/compare/v5.1.7...v5.2.0) (2026-03-26)
 
 
