@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.2.2](https://github.com/matthewhartstonge/hasher/compare/v5.2.1...v5.2.2) (2026-04-09)
+
+
+### Bug Fixes
+
+* **deps:** Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.21.0 to 1.43.0 ([#51](https://github.com/matthewhartstonge/hasher/issues/51)) ([35420cf](https://github.com/matthewhartstonge/hasher/commit/35420cfe09b4d822fd8f2870acca8143df6de828))
+
 ## [5.2.1](https://github.com/matthewhartstonge/hasher/compare/v5.2.0...v5.2.1) (2026-04-07)
 
 
