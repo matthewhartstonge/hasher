@@ -3,7 +3,7 @@ module github.com/matthewhartstonge/hasher/v5
 go 1.25.0
 
 require (
-	github.com/matthewhartstonge/argon2 v1.5.0
+	github.com/matthewhartstonge/argon2 v1.5.1
 	github.com/ory/fosite v0.49.0
 	github.com/stretchr/testify v1.11.1
 )
