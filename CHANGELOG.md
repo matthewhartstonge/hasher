@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.2.4](https://github.com/matthewhartstonge/hasher/compare/v5.2.3...v5.2.4) (2026-04-21)
+
+
+### Bug Fixes
+
+* **deps:** update github.com/matthewhartstonge/argon2 from 1.5.1 to 1.5.2 ([#54](https://github.com/matthewhartstonge/hasher/issues/54)) ([a45397c](https://github.com/matthewhartstonge/hasher/commit/a45397c80ca5155aca7d6751e573d6df4262f9f7))
+
 ## [5.2.3](https://github.com/matthewhartstonge/hasher/compare/v5.2.2...v5.2.3) (2026-04-09)
 
 
