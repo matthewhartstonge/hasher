@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.2.9](https://github.com/matthewhartstonge/hasher/compare/v5.2.8...v5.2.9) (2026-07-27)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/setup-go from 6 to 7 ([#68](https://github.com/matthewhartstonge/hasher/issues/68)) ([db34590](https://github.com/matthewhartstonge/hasher/commit/db34590b0e008252a9d575662b7142ff2ab725b4))
+* **deps:** bump google.golang.org/grpc from 1.80.0 to 1.82.1 ([#70](https://github.com/matthewhartstonge/hasher/issues/70)) ([826f3f6](https://github.com/matthewhartstonge/hasher/commit/826f3f62602b00809d86bb2b310c43326001ec0e))
+
 ## [5.2.8](https://github.com/matthewhartstonge/hasher/compare/v5.2.7...v5.2.8) (2026-07-13)
 
 
