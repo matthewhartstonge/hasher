@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.2.11](https://github.com/matthewhartstonge/hasher/compare/v5.2.10...v5.2.11) (2026-09-03)
+
+
+### Bug Fixes
+
+* **deps:** bump google.golang.org/grpc from 1.82.1 to 1.83.1 ([#75](https://github.com/matthewhartstonge/hasher/issues/75)) ([eaab7d7](https://github.com/matthewhartstonge/hasher/commit/eaab7d7ae65ed8646e015d45bb660ecacb867e25))
+
 ## [5.2.10](https://github.com/matthewhartstonge/hasher/compare/v5.2.9...v5.2.10) (2026-08-23)
 
 
