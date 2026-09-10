@@ -7,8 +7,8 @@ the hasher interface required by fosite.
 **Table of contents**
 - [Example](#example)
 - [Compatibility](#compatibility)
-- [Development](#development)
-  - [Installation](#installation)
+- [Installation](#installation)
+- [Licensing](#licensing)
 
 ## Example
 Following the [fosite-example/authorizationserver](https://github.com/ory/fosite-example/blob/master/authorizationserver/oauth2.go) 
@@ -42,10 +42,9 @@ The following table lists the compatible versions of hasher with fosite.
 If you are currently using this in production, it would be awesome to 
 know what versions you are successfully paired with.
 
-| hasher version | minimum fosite version | maximum fosite version | 
-|---------------:|-----------------------:|-----------------------:|
-|       `v5.1.X` |              `v0.49.X` |              `v0.49.X` |
-|       `v5.X.X` |              `v0.25.X` |              `v0.40.X` |
+| hasher version | fosite version | 
+|---------------:|---------------:|
+|       `v5.1.X` |      `v0.49.X` |
 
 ### Installation
 - Install [Go](https://go.dev/dl/)
