@@ -1,5 +1,19 @@
 # Changelog
 
+## [5.3.0](https://github.com/matthewhartstonge/hasher/compare/v5.2.11...v5.3.0) (2026-09-10)
+
+
+### Features
+
+* **deps:** upgrades to go@1.26.0. ([#77](https://github.com/matthewhartstonge/hasher/issues/77)) ([37f903b](https://github.com/matthewhartstonge/hasher/commit/37f903bc06bce1c37f8000a0e045c19e7ee52030))
+
+
+### Bug Fixes
+
+* **deps:** bump github.com/gorilla/websocket from v1.5.0 to v1.5.3 ([75eea92](https://github.com/matthewhartstonge/hasher/commit/75eea9279c3c6f29000894f291fcdb28addf0f6d))
+* **deps:** bump github.com/sirupsen/logrus from v1.9.3 to v1.10.2 ([b9500d3](https://github.com/matthewhartstonge/hasher/commit/b9500d3ffd34ec5a4bab1812a041bba405611ec2))
+* **deps:** bump google.golang.org/grpc from 1.80.1 to 1.82.2 ([5168621](https://github.com/matthewhartstonge/hasher/commit/5168621c182e8824e7a6961da3554777d1e43960))
+
 ## [5.2.11](https://github.com/matthewhartstonge/hasher/compare/v5.2.10...v5.2.11) (2026-09-03)
 
 
