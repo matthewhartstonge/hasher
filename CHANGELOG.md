@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.3.3](https://github.com/matthewhartstonge/hasher/compare/v5.3.2...v5.3.3) (2026-10-14)
+
+
+### Bug Fixes
+
+* **deps:** updates transitive dependencies. ([#84](https://github.com/matthewhartstonge/hasher/issues/84)) ([f0c9236](https://github.com/matthewhartstonge/hasher/commit/f0c9236b10cba67d6e75f9d8e1082e91e059b380))
+
 ## [5.3.2](https://github.com/matthewhartstonge/hasher/compare/v5.3.1...v5.3.2) (2026-09-18)
 
 
