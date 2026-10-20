@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.3.4](https://github.com/matthewhartstonge/hasher/compare/v5.3.3...v5.3.4) (2026-10-20)
+
+
+### Bug Fixes
+
+* **deps:** bump github.com/matthewhartstonge/argon2 from 1.6.3 to 1.6.4 ([#86](https://github.com/matthewhartstonge/hasher/issues/86)) ([8db773b](https://github.com/matthewhartstonge/hasher/commit/8db773ba53ed97917710a15283ca343317152f49))
+
 ## [5.3.3](https://github.com/matthewhartstonge/hasher/compare/v5.3.2...v5.3.3) (2026-10-14)
 
 
